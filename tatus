@@ -1,0 +1,25 @@
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 5decede..fa3f8f4 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -69,7 +69,7 @@[m
+     <section>[m
+       <span[m
+         class="element1 icon-create"[m
+[31m-        style="font-size: 40px; color: red;"[m
+[32m+[m[32m        style="font-size: 40px; color: rgb(117, 20, 104);"[m
+       ></span>[m
+     </section>[m
+ [m
+[36m@@ -77,8 +77,8 @@[m
+       <div class="gallery_tabs">[m
+         <a href="#" class="active" onclick="changeActive.bind(this)()">[m
+           <svg[m
+[31m-            width="12"[m
+[31m-            height="12"[m
+[32m+[m[32m            width="14"[m
+[32m+[m[32m            height="14"[m
+             viewBox="0 0 12 12"[m
+             fill="inherit"[m
+             xmlns="http://www.w3.org/2000/svg"[m
